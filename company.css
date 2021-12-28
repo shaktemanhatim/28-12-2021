@@ -1,0 +1,140 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+#home {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), #009688), url("beach.jpg");
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+}
+#mycar {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), #4184d1), url("dodge.jpg");
+  background-position: center;
+
+  background-size: cover;
+  height: 100vh;
+}
+header {
+  display: flex;
+  justify-content: space-around;
+  position: fixed;
+  width: 100%;
+  height: 10vh;
+  border: 2px soild red;
+  border: 2px solid;
+}
+nav {
+  display: flex;
+  justify-content: space-around;
+}
+nav ul {
+  display: flex;
+  margin-top: 0.8rem;
+}
+nav ul li {
+  list-style: none;
+  padding: 1rem;
+}
+nav ul li a {
+  text-decoration: none;
+  color: white;
+}
+nav ul li a:hover {
+  background-color: rgb(20, 36, 87);
+}
+nav img {
+  width: 8%;
+  height: 8vh;
+  margin-top: 0.5rem;
+}
+.homecontent {
+  position: relative;
+  top: 25%;
+  text-align: center;
+  margin: 1rem;
+  color: white;
+}
+.homecontent p {
+  margin: 1rem;
+  padding: 0 10rem;
+}
+
+.homecontent a {
+  margin: 1rem;
+  border: 2px;
+  text-decoration: none;
+  color: white;
+  padding: 4px 5px;
+  background-color: royalblue;
+}
+.h11 {
+  text-align: center;
+  color: #009688;
+  background-color: black;
+  height: 6vh;
+}
+.carcontent {
+  display: flex;
+  justify-content: space-between;
+  /* padding-top: 8.5rem; */
+  position: relative;
+  top: 25%;
+}
+.carcontent1 {
+  color: yellow;
+
+  border: 2px solid #009688;
+  width: 33%;
+  height: 40vh;
+  border-radius: 10px;
+  text-align: center;
+}
+.carcontent1 img {
+  width: 33%;
+  height: 20vh;
+}
+.carcontent2 img {
+  width: 33%;
+  height: 20vh;
+}
+.carcontent2 {
+  color: yellow;
+
+  border: 2px solid #009688;
+  width: 33%;
+  height: 40vh;
+  border-radius: 10px;
+  text-align: center;
+}
+.carcontent3 img {
+  width: 33%;
+  height: 20vh;
+}
+.carcontent3 {
+  color: yellow;
+
+  border: 2px solid #009688;
+  width: 33%;
+  height: 40vh;
+  border-radius: 10px;
+  text-align: center;
+}
+.box {
+  width: 25%;
+  height: 25vh;
+  border: 2px solid #009688;
+  text-align: center;
+}
+.hidden {
+  display: none;
+}
+/* .carcontent1 h1{
+text-align: center;
+} */
+.hidden2 {
+  opacity: 0;
+  transform: translateY(8rem);
+  transition: 0.5s;
+}
